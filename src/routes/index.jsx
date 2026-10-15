@@ -7,7 +7,7 @@ import { DrawerRoutes } from './DrawerRoutes';
 
 // Aqui irá ficar a constante de navegação
 // Valores possiveis para a constante - "stack"| "bottom" | "drawer"
-const TIPO_DE_NAVEGACAO = "drawer"
+const TIPO_DE_NAVEGACAO = "stack";
 
 export function Routes() {
     return (

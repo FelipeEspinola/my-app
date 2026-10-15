@@ -1,0 +1,27 @@
+import { View } from "react-native";
+
+import Header from "../components/Header";
+import Title from "../components/Title";
+import ButtonIcon from "../components/ButtonIcon";
+import { useNavigation } from "@react-navigation/native";
+
+
+export default function Profile(){
+    const navigation = useNavigation();
+        return(
+            <View style={{
+                flex:1,
+                padding: 32,
+                paddingTop: 54,
+            }}>
+                <Header>
+                    <ButtonIcon
+                        icon="arrow-circle-left"
+                        onPress={() => navigation.goBack()}
+                        />
+                        <Title>Settings</Title>
+                </Header>
+            </View>
+        )
+    
+}
