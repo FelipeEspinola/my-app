@@ -16,31 +16,6 @@ Aplicativo de estudo de navegação mobile criado com Expo e React Native. O pro
 - Node.js 20.19.4 ou superior
 - npm
 
-## Instalação e execução
-
-Na raiz do projeto, instale as dependências:
-
-```bash
-npm install
-```
-
-Inicie no navegador:
-
-```bash
-npm run web
-```
-
-Para iniciar o Expo e escolher a plataforma:
-
-```bash
-npm start
-```
-ou
-
-```bash
-npx expo start
-```
-
 
 ## Navegação
 
